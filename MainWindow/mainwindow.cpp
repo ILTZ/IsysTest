@@ -171,7 +171,7 @@ void MainWindow::maximizeWnd()
 {
     if (isHidden())
     {
-        setWindowState(windowState() & ~Qt::WindowMinimized);
+        setWindowState(Qt::WindowNoState);
         show();
         activateWindow();
     }

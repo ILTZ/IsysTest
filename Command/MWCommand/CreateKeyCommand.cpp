@@ -6,7 +6,7 @@
 #include <QFile>
 #include <QDir>
 
-#include "MainWindow\mainwindow.h"
+#include "MainWindow/mainwindow.h"
 
 #include "Key/KeyGenerator/ConcreteKeyContainerGenerator/BaseKeyContainerGenerator.h"
 #include "Key/KeyGenerator/ConcreteKeyGenerator/BaseKeyGenerator.h"

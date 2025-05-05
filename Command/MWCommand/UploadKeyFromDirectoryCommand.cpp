@@ -2,7 +2,7 @@
 
 #include <QDir>
 
-#include "MainWindow\mainwindow.h"
+#include "MainWindow/mainwindow.h"
 #include "Key/KeySerializer/ConcreteKeyContainerSerializer/BaseKeyContainerSerializer.h"
 #include "Key/KeyFrame/ConcreteKeyContainerFrame/ConcreteContainerFrame.h"
 

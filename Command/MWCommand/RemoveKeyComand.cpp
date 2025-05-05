@@ -1,6 +1,6 @@
 #include "RemoveKeyComand.h"
 
-#include "MainWindow\mainwindow.h"
+#include "MainWindow/mainwindow.h"
 #include "Key/KeyFrame/AKeyFrameContainer.h"
 
 #include <QFile>

@@ -1,6 +1,6 @@
 #include "UnloadKeyCommand.h"
 
-#include "MainWindow\mainwindow.h"
+#include "MainWindow/mainwindow.h"
 
 #include "Key/KeyFrame/AKeyFrameContainer.h"
 #include "Key/KeySerializer/ConcreteKeyContainerSerializer/BaseKeyContainerSerializer.h"

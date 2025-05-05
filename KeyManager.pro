@@ -31,7 +31,7 @@ SOURCES += \
     TrayIcon/ConcreteTrayIcon/NativeQtTrayIcon.cpp \
     TrayIcon/ConcreteTrayIconFactory/PlatformTrayIconFactory.cpp \
     main.cpp \
-    MainWindow\mainwindow.cpp
+    MainWindow/mainwindow.cpp
 
 HEADERS += \
     Key/Key/AKey.h \
@@ -65,11 +65,11 @@ HEADERS += \
     TrayIcon/ATrayIconFactory.h \
     TrayIcon/ConcreteTrayIcon/NativeQtTrayIcon.h \
     TrayIcon/ConcreteTrayIconFactory/PlatformTrayIconFactory.h \
-    MainWindow\mainwindow.h
+    MainWindow/mainwindow.h
 
 FORMS += \
     Key/KeyFrame/ConcreteKeyContainerFrame/ConcreteContainerFrame.ui \
-    MainWindow\mainwindow.ui
+    MainWindow/mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -32,6 +32,8 @@ BaseContainerFrame::BaseContainerFrame(QWidget *parent) :
 
     ui->privatePartTE->installEventFilter   (new TextEditEventFilter(ui->privatePartTE));
     ui->publicPartTE->installEventFilter    (new TextEditEventFilter(ui->publicPartTE));
+
+    ui->keyPathL->setToolTip("Расположение файла ключа");
 }
 
 BaseContainerFrame::~BaseContainerFrame()
@@ -67,12 +69,14 @@ void BaseContainerFrame::setKeyReadyState(bool ready)
         auto palette = ui->statusL->palette();
         palette.setColor(QPalette::Window, Qt::green);                
         ui->statusL->setPalette(palette);
+        ui->statusL->setToolTip("Ключ готов к работе");
     }
     else
     {
         auto palette = ui->statusL->palette();
         palette.setColor(QPalette::Window, Qt::red);
         ui->statusL->setPalette(palette);
+        ui->statusL->setToolTip("Ключ не готов к работе");
     }
 }
 
